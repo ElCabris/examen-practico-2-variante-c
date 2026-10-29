@@ -11,7 +11,7 @@ const sampleSeed = <Sample>[
     id: 'M-1002',
     type: 'Agua',
     origin: 'Planta Central',
-    priority: 'Normal',
+    priority: 'Alta',
   ),
   Sample(
     id: 'M-1003',
