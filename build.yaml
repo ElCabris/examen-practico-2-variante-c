@@ -1,0 +1,8 @@
+targets:
+  $default:
+    builders:
+      drift_dev:
+        options:
+          # Guarda las fechas como texto ISO-8601 para conservar milisegundos
+          # y poder ordenar eventos registrados en el mismo segundo.
+          store_date_time_values_as_text: true
